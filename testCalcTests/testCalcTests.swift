@@ -10,10 +10,16 @@ import XCTest
 @testable import testCalc
 
 class testCalcTests: XCTestCase {
+    var vc: ViewController!
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        vc = storyboard.instantiateInitialViewController() as! ViewController
+        
+        
+        
     }
     
     override func tearDown() {
@@ -21,16 +27,20 @@ class testCalcTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    // test for percentage
+    func testPercentageCalculator(){
+        
+        let p = vc.percentage(50, 50)
+        XCTAssert(p == 25)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
+    func testLabelValuesShowedProperly(){
+        let _ = vc.view
+        vc.updateLabels(Float(80.0), Float(50.0), Float(40.0))
+        
+        XCTAssert(vc.numberLabel.text! == "80.0", "numberLabel doesn't show the right text")
+        XCTAssert(vc.percentageLabel.text! == "50.0%", "percentageLabel doesn't show the right text")
+        XCTAssert(vc.resultLabel.text! == "40.0", "resultLabel doesn't show the right text")
     }
     
 }
