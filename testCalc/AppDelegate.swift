@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  unitTestingCalculator
+//  testCalc
 //
 //  Created by Roman Ustiantcev on 08/06/16.
 //  Copyright © 2016 Roman Ustiantcev. All rights reserved.

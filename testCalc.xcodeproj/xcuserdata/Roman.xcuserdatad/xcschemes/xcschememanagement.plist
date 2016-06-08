@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>unitTestingCalculator.xcscheme</key>
+		<key>testCalc.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>30E2A9511D08440400E4F939</key>
+		<key>30E2A9AB1D084AE000E4F939</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30E2A9BF1D084AE000E4F939</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>30E2A9CA1D084AE000E4F939</key>
 		<dict>
 			<key>primary</key>
 			<true/>

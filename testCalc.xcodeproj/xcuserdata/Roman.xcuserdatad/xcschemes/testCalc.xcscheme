@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "30E2A9511D08440400E4F939"
-               BuildableName = "unitTestingCalculator.app"
-               BlueprintName = "unitTestingCalculator"
-               ReferencedContainer = "container:unitTestingCalculator.xcodeproj">
+               BlueprintIdentifier = "30E2A9AB1D084AE000E4F939"
+               BuildableName = "testCalc.app"
+               BlueprintName = "testCalc"
+               ReferencedContainer = "container:testCalc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,14 +28,34 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "30E2A9BF1D084AE000E4F939"
+               BuildableName = "testCalcTests.xctest"
+               BlueprintName = "testCalcTests"
+               ReferencedContainer = "container:testCalc.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "30E2A9CA1D084AE000E4F939"
+               BuildableName = "testCalcUITests.xctest"
+               BlueprintName = "testCalcUITests"
+               ReferencedContainer = "container:testCalc.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30E2A9511D08440400E4F939"
-            BuildableName = "unitTestingCalculator.app"
-            BlueprintName = "unitTestingCalculator"
-            ReferencedContainer = "container:unitTestingCalculator.xcodeproj">
+            BlueprintIdentifier = "30E2A9AB1D084AE000E4F939"
+            BuildableName = "testCalc.app"
+            BlueprintName = "testCalc"
+            ReferencedContainer = "container:testCalc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30E2A9511D08440400E4F939"
-            BuildableName = "unitTestingCalculator.app"
-            BlueprintName = "unitTestingCalculator"
-            ReferencedContainer = "container:unitTestingCalculator.xcodeproj">
+            BlueprintIdentifier = "30E2A9AB1D084AE000E4F939"
+            BuildableName = "testCalc.app"
+            BlueprintName = "testCalc"
+            ReferencedContainer = "container:testCalc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "30E2A9511D08440400E4F939"
-            BuildableName = "unitTestingCalculator.app"
-            BlueprintName = "unitTestingCalculator"
-            ReferencedContainer = "container:unitTestingCalculator.xcodeproj">
+            BlueprintIdentifier = "30E2A9AB1D084AE000E4F939"
+            BuildableName = "testCalc.app"
+            BlueprintName = "testCalc"
+            ReferencedContainer = "container:testCalc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
